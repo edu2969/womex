@@ -7,7 +7,7 @@ export default function About() {
             </div>
             <div className="ml-6">
                 <p>Todos los derechos reservados.</p>
-                <p>Contáctenos vía e-mail a <a href="#">contacto@ocustocus.cl</a></p>
+                <p>Contáctenos vía e-mail a <a href="#">contacto@womex.cl</a></p>
             </div>            
         </div>
     )

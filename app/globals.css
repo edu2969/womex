@@ -19,34 +19,11 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-/* Label styles while positioned in the "placeholder" state, in the 
-   middle of the input */
-.container .label {
-  position: absolute;
-  pointer-events: none;
-  transform: translate(0, 23px) scale(1);
-  /* makes sure we can track the position of the label appropriately */
-  transform-origin: top left;
-  transition: 150ms cubic-bezier(0, 0, 0.2, 1) 0ms;
-  font-size: 16px;
-  line-height: 1;
-  left: 16px;
-  min-width: 0;
-}
-
-.container .input {
-  display: flex;
-  padding: 24px 16px 8px;
-  height: 60px;
-  border-radius: 8px;
-  min-width: 0;
+.dosis {
+  font-family: var(--font-dosis);
 }

@@ -1,11 +1,11 @@
-"use client";
+"use client"
 import { AiOutlineUser } from 'react-icons/ai'
 import Datepicker from 'react-tailwindcss-datepicker'
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { useRouter } from 'next/navigation';
+import { useState } from 'react'
+import { useForm } from 'react-hook-form'
+import { useRouter } from 'next/navigation'
 
-export default function UserForm({ user }) {
+export default function EdicionContrato({ contrato }) {
     const router = useRouter();
     const [fechaNacimiento, setFechaNacimiento] = useState({
         startDate: user.birthDate, endDate: user.birthDate
